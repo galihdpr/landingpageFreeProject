@@ -1,0 +1,298 @@
+/* Set all*/
+*{
+    box-sizing: border-box;
+}
+
+body, div, p, h1,h2,h3,h4,h5,h6,
+ul,li,span,nav,img, form,button,
+footer{
+    margin : 0;
+    padding : 0;
+}
+
+body{
+    font-family : 'lucida grander',tahoma,Verdana, arial,sans-serif;
+}
+
+.container{
+    width : 95%;
+    margin : 0 auto;
+}
+
+.header-wrapper{
+    background-color : rgb(14,24,95);
+    position: sticky;
+    top : 0;
+    z-index: 1;
+}
+
+#header{
+    display : flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left-header{
+    flex-basis: 20%;
+}
+
+.right-header{
+    flex-basis : 80%;
+}
+
+img{
+    width : 67%;
+}
+
+.logo-icon{
+    width : 80%;
+}
+
+nav{
+    display : flex;
+    justify-content: space-evenly;
+    height: 100%;
+    align-items:center;
+}
+
+.nav-link{
+    color : white;
+    font-size: 1.4em;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    color: green;
+}
+
+.top-wrapper{
+    background-color: rgb(232, 255, 194);
+}
+.top-section{
+    display : flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding : 20px 0; 
+}
+.left-top{
+    width: 60%;
+}
+.left-top>img{
+    width : 90%;
+    border-radius: 50%;
+    box-shadow: 0 0 2px 3px rgb(232, 255, 194);
+}
+
+.right-top{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#top-title{
+    font-size : 6em;
+    font-weight: lighter;
+    font-family:cursive;
+    line-height: 1em;
+}
+
+#form{
+    display: flex;
+
+}
+
+#email{
+    height: 4em;
+    width : 20em;
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+    padding: 15px;
+    font-size: 13px;
+    border: 1px solid rgb(47, 164, 255);
+}
+
+#email:focus{
+    border: 1px solid #0E185F;
+}
+
+#submit{
+    height: 4em;
+    width : 10em;
+    background-color: rgb(47, 164, 255);
+    border : 0 solid transparent;
+    border-end-end-radius: 1em;
+    color : white;
+    font-weight: bold;
+}
+
+#submit:hover{
+    opacity : 0.6;
+    cursor: pointer;
+    border: 1px solid #0E185F;
+}
+
+.about-wrapper{
+    background-color: rgb(14, 24, 95);
+}
+.about-section{
+    display: flex;
+    flex-direction: row;
+}
+
+
+#about-title{
+    font-size : 4em;
+    color: white;
+}
+
+.right-about{
+    color: white;
+}
+
+.right-about>h3{
+    font-size : 2em;
+    padding : 2em;
+}
+
+.right-about>h4{
+    font-size: 1em;
+    padding : 0 4em;
+}
+
+.experiences-wrapper{
+    background-color: rgb(47, 164, 255);
+    padding : 1em;
+}
+
+#experiences-title{
+    font-size: 3em;
+    text-align: center;
+    color : white;
+}
+
+#nature,#city,#art,#food{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.img-nature{
+    width : 30%;
+}
+
+.img-nature>img{
+    width : 200px;
+    height: 250px;
+    border-radius: 4px;
+    box-shadow: 0 0 5px 1px white;
+}
+
+.desc{
+    color: white;
+    font-size : 2em;
+    font-family: monospace;
+}
+
+.slide-section{
+    margin : 0 0 20px 0;
+}
+
+.story-wrapper{
+    background-color: whitesmoke;
+}
+
+#story-title{
+    font-size: 4em;
+    text-align: center;
+}
+
+#story-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.story-card{
+    background-color: white;
+    border-radius: 4px;
+    margin: 0 10px;
+    box-shadow: 1px 1px 4px 2px black;
+    padding : 11px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.image-side{
+    background-color: rgb(0, 255, 221);
+    width : 100%;
+    height: 50%;
+    text-align: center;
+}
+
+.image-side > img{
+    margin: 0 auto;
+    width : 150px;
+    height: 150px;
+    transform: translate(0,20px);
+    border : 3px solid rgb(0, 255, 221);
+    border-radius: 50%;
+    margin-bottom : 15px;
+}
+
+footer{
+    background-color: whitesmoke;
+}
+
+.footer-section{
+    display :flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top : 30px;
+}
+
+.right-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 70%;
+}
+
+li{
+    list-style-type: none;
+    padding : 11px;
+}
+
+li > a:link{
+    text-decoration: none;
+    color: #0E185F;
+}
+
+.logo-footer>img{
+    width : 60%;
+}
+
+.logo-footer{
+    width : 100%;
+}
+
+.left-footer{
+    width : 30%;
+}
+
+h6{
+    font-size : 1.2em;
+}
+
+.kioku-video{
+    width : 50%;
+    margin : 0 auto;
+}
+
+video{
+    width: 100%;
+    height: 250px;
+}
